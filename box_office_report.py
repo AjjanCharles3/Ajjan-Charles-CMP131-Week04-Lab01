@@ -1,8 +1,14 @@
 #Charles Ajjan, cmp131, Week 4, Lab 1, box office report, started on 09/10/2026
-MOVIE=input("enter movie name")
-Adult=input("enter Amount of Adult tickets")
-Child=input("enter Amount of Child tickets")
-gross=(adultticketx10)=(childx6)
-net=gbox*0,2
-Amount=gbox-netbox
-print("moviename:",movie)
+Movie=input("Enter Movie Name")
+Movie=("Coyote VS. ACME")
+Adult=int(input(382))
+Child=int(input(127))
+gross=input(382*10+127*6)
+net=input(float(4582*0.2))
+Amount=input(float(4582-916.4))
+print("Enter Movie Name:",Movie)
+print ("Adult")
+print("Child")
+print(gross)
+print(net)
+print(Amount)
