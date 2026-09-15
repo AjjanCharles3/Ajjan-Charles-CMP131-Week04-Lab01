@@ -1,4 +1,4 @@
-#Charles Ajjan, CMP131, week 4, Lab 1, interest enered, started on 09/10/2026
+#Charles Ajjan, CMP131, week 4, Lab 1, interest ernered, started on 09/10/2026
 Principal = float(input("Enter the principal amount: "))
 Rate = float(input("Enter the Monthly interest rate (as a percentage): "))
 compounding_period = int(input("Enter the compounding periods per months"))
