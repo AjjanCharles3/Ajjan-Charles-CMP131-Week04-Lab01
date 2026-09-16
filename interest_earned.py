@@ -1,9 +1,14 @@
-#Charles Ajjan, CMP131, week 4, Lab 1, interest ernered, started on 09/10/2026
+#Charles Ajjan 
+# #CMP131 
+# #week 4 
+# #Lab 1 
+# #interest ernered 
+# #started on 09/10/2026
 Customer1=(input("Please enter your First Name:  "))
 Customer2=(input("Please enter your Last Name:   "))
 Principal = float(input("Enter principal amount: "))
 Rate = (float(input("Enter annual percentage")))
-Compounding_Period = int(input("Enter the Compounding Periods per year"))
+Compounding_Period = int(input("Enter the Compounding Periods per year   "))
 Rate_decimal= (Rate/100)
 Final_amount = (Principal * (1 + (Rate_decimal / Compounding_Period)) ** (Compounding_Period ))
 Interest_earned = (Final_amount - Principal)
@@ -16,7 +21,7 @@ print("PRINCIPAL")
 print(f"Principal: ${Principal:.2f}")
 print()
 print("RATE")
-print("Rate", Rate)
+print("Rate", Rate,"%")
 print()
 print("COMPOUNDING PERIOD")
 print("Compounding_Period", Compounding_Period)
